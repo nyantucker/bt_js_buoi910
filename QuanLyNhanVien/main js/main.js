@@ -39,6 +39,7 @@ function addNV() {
     localStorage.setItem("DSNV",jsonData);
 
     renderDsnv(dsnv);
+    $("#myModal").modal("hide")
 }
 
 function xoaNV(id) {
